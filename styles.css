@@ -84,3 +84,13 @@ td,th{
   padding-left: 10%;
   font-size: 28px;
 }
+#regards{
+  text-align: center;
+  color: aliceblue;
+}
+#information{
+  padding-top: 5%;
+  font-size: 18px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #ffa500;
