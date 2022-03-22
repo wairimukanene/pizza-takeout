@@ -46,6 +46,28 @@ html,body,header,
   padding-left: 2%;
   padding-right: 2%;
 }
-.deliver{
-  display: none;
+.delivery{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th{
+  font-size: 20px;
+  color: white;
+}
+.choice h2{
+  color:orange;
+  text-align: left;
+}
+#your-orders{
+  color: white;
+  font-size: 30px;
+}
+#contact h2{
+  text-align: center;
+}
+#contact{
+  color: white;
+}
+#contactdetails h2{
+  text-align: left;
 }
