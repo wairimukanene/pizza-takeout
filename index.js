@@ -29,3 +29,12 @@ $(document).ready(function(){
     let total = pName + pSize + pTopping + pCrust;
     let grandTotal = total;
 
+    $("#pizzaname").html(pizzaName);
+    $("#pizzasize").html(pizzaToppings);
+    $("#pizzacrust").html(pizzaCrust);
+    $("#pizzatopping").html(pizzaTopping);
+    $("#totals").html(total);
+
+    console.log(totals);
+
+
