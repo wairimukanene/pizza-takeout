@@ -27,7 +27,7 @@ $(document).ready(function(){
     let pTopping = parseInt($("#toppings option:selected").val());
     let pCrust = parseInt($("#crust option:selected").val());
     let total = pName + pSize + pTopping + pCrust;
-    let grandTotal = total;
+    let checkoutTotal = total;
 
     $("#pizzaname").html(pizzaName);
     $("#pizzasize").html(pizzaToppings);
@@ -47,11 +47,22 @@ $(document).ready(function(){
       let pTopping = parseInt($("#toppings option:selected").val());
       let pCrust = parseInt($("#crust option:selected").val());
       let total = pName + pSize + pTopping + pCrust;
-      let grandTotal = total;
-      grandTotal = grandTotal + total;
+      let checkoutTotal = total;
+      checkoutTotal = checkoutTotal + total;
       
       let newOrder = new Order( pizzaName ,pizzaSize, pizzaTopping, pizzaCrust, total);
       let newOrderSummary = '<tr>' + '<td id="pizzaname">' + newOrder.name + '</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">' + newOrder.crust + '</td><td id="pizzatopping">' +newOrder.topping + '</td><td id="totals">' + newOrder.totals + '</td></tr>'
-      
+      $("#totals").append(newOrderSummary);  
+      console.log(checkoutTotal);
+    });
+    // Checkout button
+    $("button#checkout").click(function(){ 
+      $("button#checkout").hide();
+      $("button.addPizza").hide();
+      $("button.deliver").slideDown(1000);
+      $("#addedprice").slideDown(1000);
+      console.log("Your total bills is sh. "+checkoutTotal);
+      $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
+    });
 
       
