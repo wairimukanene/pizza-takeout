@@ -36,5 +36,16 @@ $(document).ready(function(){
     $("#totals").html(total);
 
     console.log(totals);
+    $("#proceed").click(function() {
+      let pName=$("#name option:selected").text();
+      let pSize = $("#size option:selected").val();
+      let pTopping = $("#toppings option:selected").val();
+      let pCrust = $("#crust option:selected").val();
 
+      let pName = parseInt($("#name option:selected").text());
+      let pSize = parseInt($("#size option:selected").val());
+      let pTopping = parseInt($("#toppings option:selected").val());
+      let pCrust = parseInt($("#crust option:selected").val());
+      let total = pName + pSize + pTopping + pCrust;
+      let grandTotal = total;
 
