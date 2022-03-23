@@ -42,7 +42,7 @@ html,body,header,
   padding-left: 6%;
 }
 .choice{
-  display: none;
+  display: ;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -75,10 +75,10 @@ td,th{
   padding-top: 5%;
 }
 #addedprice{
-  display: none;
+  display: ;
 }
-#finallmessage{
-  display: none;
+#finalmessage{
+  display: ;
   padding-top: 10%;
   padding-right: 10%;
   padding-left: 10%;
@@ -89,11 +89,10 @@ td,th{
   color: aliceblue;
 }
 #information{
-  padding-top: 5%;
-  font-size: 18px;
-  padding-right: 8%;
-  padding-left: 5%;
+font-size: 14px;
+
   color: #ffa500;
+  text-align: center;
 }
 @media only screen and (max-width: 485px){
   .flex-xs-column {
@@ -127,7 +126,7 @@ header,
 
 
 .contact{
-  background-color: aqua;
+  background-color:powderblue;
 }
 #crust{
   width: 300px;
@@ -141,3 +140,18 @@ header,
 #btn btn-orange proceed{
   color: aqua;
 }
+
+
+#information{
+  padding-top: 5%;
+  font-size: 14px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: gainsboro;
+}
+.col-sm-5{
+  color: azure;
+}
+
+
+
