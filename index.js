@@ -48,4 +48,10 @@ $(document).ready(function(){
       let pCrust = parseInt($("#crust option:selected").val());
       let total = pName + pSize + pTopping + pCrust;
       let grandTotal = total;
+      grandTotal = grandTotal + total;
+      
+      let newOrder = new Order( pizzaName ,pizzaSize, pizzaTopping, pizzaCrust, total);
+      let newOrderSummary = '<tr>' + '<td id="pizzaname">' + newOrder.name + '</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">' + newOrder.crust + '</td><td id="pizzatopping">' +newOrder.topping + '</td><td id="totals">' + newOrder.totals + '</td></tr>'
+      
 
+      
