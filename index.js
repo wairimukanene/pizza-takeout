@@ -63,6 +63,7 @@ $(document).ready(function(){
         $("#cost").html("sh"+ checkoutTotal);
         let location=$("#place").val();
         $(".home").html(location);
+        resetDefault();
       });
   });
 });
