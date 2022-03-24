@@ -34,20 +34,22 @@ html,body,header,
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.order-overlay{
-  background-color: rgba(0, 0, 0, 0.8);
-  margin-left: 2%;
-  margin-right: 2%;
+.select{
+  background-color: black;
+  margin-left: 0%;
+  margin-right: 0%;
   padding-bottom: 20px;
   padding-left: 6%;
+  text-align: center;
 }
 .choice{
   display:none ;
-  padding-left: 2%;
+  padding-left: 8%;
   padding-right: 2%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .deliver{
-  display: none;
+  display:none ;
 }
 .delivery{
   padding-left: 10%;
@@ -67,19 +69,19 @@ td,th{
   font-size: 30px;
 }
 #contact h2{
-  text-align: center;
+  text-align:center ;
 }
 #contact{
   color:white;
 }
 #contactdetails h2{
-  text-align: left;
+  text-align: center;
 }
 .footer{
   padding-top: 5%;
 }
 #addedprice{
-  display:none ;
+  display: none;
 }
 #finallmessage{
   display:none ;
@@ -112,7 +114,7 @@ font-size: 14px;
   flex-direction: column;
 }
 .order-overlay{
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   margin-left: 2%;
   margin-right: 2%;
   padding-right: 16px;
@@ -128,12 +130,12 @@ header,
   height: 100vh;
 }
 
-.contact{
-  margin-left: 2%;
+.contactPage{
+  margin: left 2%;
   margin-right: 2%;
-  padding-right: 16px;
-  padding-left: 16px;
-  text-align: center;
+  padding: right 6px;
+  padding-left: 6px;
+  background-color: rgba(0, 0, 0, 0.1); 
 }
 #crust{
   width: 300px;
@@ -144,24 +146,36 @@ header,
 #flavor{
   width: 300px;
 }
+#topping{
+  width: 300px;
+}
 #btn btn-orange proceed{
   color: aqua;
 }
 
 
 #information{
-  padding-top: 5%;
-  font-size: 14px;
-  padding-right: 8%;
-  padding-left: 5%;
-  color: gainsboro;
-  
+    padding-top: 5%;
+    font-size: 15px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color: #ffa500;
 }
 .row{
   color: beige;
 }
 .topping{
   color:aliceblue;
+}
+.location,.homeDelivery{
+  display:none;
+}
+#proceed{
+  text-align: center;
+}
+.homeDelivery{
+  font-size: 16px;
+  color: azure;
 }
 
 
