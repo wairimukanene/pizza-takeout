@@ -42,13 +42,17 @@ html,body,header,
   padding-left: 6%;
 }
 .choice{
-  display: ;
+  display:none ;
   padding-left: 2%;
   padding-right: 2%;
+}
+.deliver{
+  display: none;
 }
 .delivery{
   padding-left: 10%;
   padding-right: 10%;
+  display:none;
 }
 td,th{
   font-size: 20px;
@@ -66,7 +70,7 @@ td,th{
   text-align: center;
 }
 #contact{
-  color: black;
+  color:white;
 }
 #contactdetails h2{
   text-align: left;
@@ -75,10 +79,10 @@ td,th{
   padding-top: 5%;
 }
 #addedprice{
-  display: ;
+  display:none ;
 }
-#finalmessage{
-  display: ;
+#finallmessage{
+  display:none ;
   padding-top: 10%;
   padding-right: 10%;
   padding-left: 10%;
@@ -124,9 +128,13 @@ header,
   height: 100vh;
 }
 
-
 .contact{
-  background-color:powderblue;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-right: 16px;
+  padding-left: 16px;
+  text-align: center;
+  background-color: aqua;
 }
 #crust{
   width: 300px;
@@ -148,10 +156,10 @@ header,
   padding-right: 8%;
   padding-left: 5%;
   color: gainsboro;
+  
 }
-.col-sm-5{
-  color: azure;
-}
+
+
 
 
 
