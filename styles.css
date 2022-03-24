@@ -134,7 +134,6 @@ header,
   padding-right: 16px;
   padding-left: 16px;
   text-align: center;
-  background-color: aqua;
 }
 #crust{
   width: 300px;
@@ -157,6 +156,12 @@ header,
   padding-left: 5%;
   color: gainsboro;
   
+}
+.row{
+  color: beige;
+}
+.topping{
+  color:aliceblue;
 }
 
 
